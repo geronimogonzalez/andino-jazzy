@@ -4,7 +4,7 @@ Firmware code to be run in the arduino microcontroller for proper control of the
 
 ## Connection
 
-Check `encoder_driver.h` and `motor_driver.h` files to check the expected pins for the connection.
+Check `hw.h` file to check the expected pins for the connection for motors, encoders and IMU.
 
 ## Installation
 
