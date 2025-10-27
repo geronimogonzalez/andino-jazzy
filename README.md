@@ -1,16 +1,5 @@
-<div align="center">
-
-  ![Logo White](./docs/logo_white.svg#gh-dark-mode-only)
-
-</div>
-
-<div align="center">
-
-  ![Logo Black](./docs/logo_black.svg#gh-light-mode-only)
-
-</div>
-
-[**UNSTABLE BRANCH**]
+# ANDINO
+[**BUILING BRANCH**]
 
 Andino is a fully open-source diff drive robot designed for educational purposes and low-cost applications.
 It is fully integrated with ROS 2 and it is a great base platform to improve skills over the robotics field.
