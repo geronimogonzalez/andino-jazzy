@@ -113,9 +113,18 @@ For installing this OS in the Raspberry:
 3. Boot your raspberry using the microSD and a HDMI connection. Some initial configuration is necessary. Follow the wizard for a proper set up. It is recommended to use simple User and Password combinations for the user. For example:
     - user: pi
     - password: admin
-
+**recordar que el primer arranque debe ser conectado a internet mediante cable ethernet**
 4. Once is done, run `sudo apt update && sudo apt upgrade` in a terminal for updating the system. Then reboot.
 
+Para configurar la conecxion wifi descargar el paquete network manager
+```
+sudo apt-get install network-manager
+```
+y utilizar el comando 
+```
+sudo nmtui
+```
+para la configuracion de la red wifi deseada.
 ### Installing dependencies
 
 Some packages are necessary to be installed towards a correct set up of the robot's on-board computer.
