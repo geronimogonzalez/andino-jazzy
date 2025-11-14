@@ -115,6 +115,7 @@ For installing this OS in the Raspberry:
     - password: admin
       
 **recordar que el primer arranque debe ser conectado a internet mediante cable ethernet**
+
 4. Once is done, run `sudo apt update && sudo apt upgrade` in a terminal for updating the system. Then reboot.
 
 Para configurar la conecxion wifi descargar el paquete network manager
@@ -165,6 +166,8 @@ sudo apt update
 ```
 sudo apt install git net-tools software-properties-common build-essential -y
 ```
+<font color="red"> el comando de abajo no existe. No lo corro y veo</font>
+
 ```
 sudo apt install python3-rosdep2 python3-catkin-pkg python3-catkin-pkg-modules python3-rospkg-modules python3-rospkg  -y
 ```
