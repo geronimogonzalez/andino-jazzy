@@ -175,8 +175,9 @@ sudo apt install python3-rosdep2 python3-catkin-pkg python3-catkin-pkg-modules p
 #### Install ROS
 
 Follow suit the instructions for installing next dependencies from binaries:
- - [ROS 2 Humble](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html)
- - [Colcon](https://colcon.readthedocs.io/en/released/user/installation.html)
+ - [ROS 2 Jazzy](https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debs.html)
+
+Nota: Instalar ROS Jazzy Desktop, ya que contiene instaladas herramientas necesarias.
 
 To automatically source ROS installation, it is recommended to add `source /opt/ros/humble/setup.bash` line to the `~/.bashrc` file.
 
