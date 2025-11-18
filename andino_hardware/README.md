@@ -113,9 +113,22 @@ For installing this OS in the Raspberry:
 3. Boot your raspberry using the microSD and a HDMI connection. Some initial configuration is necessary. Follow the wizard for a proper set up. It is recommended to use simple User and Password combinations for the user. For example:
     - user: pi
     - password: admin
+      
+**recordar que el primer arranque debe ser conectado a internet mediante cable ethernet**
 
 4. Once is done, run `sudo apt update && sudo apt upgrade` in a terminal for updating the system. Then reboot.
 
+Para configurar la conecxion wifi descargar el paquete network manager
+```
+sudo apt-get install network-manager
+```
+y utilizar el comando 
+```
+sudo nmtui
+```
+para la configuracion de la red wifi deseada.
+
+Recomendacion: Siempre trabajar con la mayor velocidad posible, por lo que si es posible trabajar bajo wifi 5.0 o cableado al menos una de las computadoras (ROV o station).
 ### Installing dependencies
 
 Some packages are necessary to be installed towards a correct set up of the robot's on-board computer.
@@ -153,6 +166,8 @@ sudo apt update
 ```
 sudo apt install git net-tools software-properties-common build-essential -y
 ```
+<font color="red"> el comando de abajo no existe. No lo corro y veo</font>
+
 ```
 sudo apt install python3-rosdep2 python3-catkin-pkg python3-catkin-pkg-modules python3-rospkg-modules python3-rospkg  -y
 ```
@@ -160,8 +175,9 @@ sudo apt install python3-rosdep2 python3-catkin-pkg python3-catkin-pkg-modules p
 #### Install ROS
 
 Follow suit the instructions for installing next dependencies from binaries:
- - [ROS 2 Humble](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html)
- - [Colcon](https://colcon.readthedocs.io/en/released/user/installation.html)
+ - [ROS 2 Jazzy](https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debs.html)
+
+Nota: Instalar ROS Jazzy Desktop, ya que contiene instaladas herramientas necesarias.
 
 To automatically source ROS installation, it is recommended to add `source /opt/ros/humble/setup.bash` line to the `~/.bashrc` file.
 
