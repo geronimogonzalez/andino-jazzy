@@ -364,13 +364,21 @@ rosdep update
 ```
 Make sure to export the `ROS_DISTRO` environment variable:
 ```
-export ROS_DISTRO=humble
+export ROS_DISTRO=jazzy
 ```
 And then proceed to install the workspace dependencies:
 ```
-sudo apt install python3-rosdep
-sudo rosdep init
-rosdep install --from-paths src -i -y -r
+sudo apt update
+rosdep update
+rosdep install --from-paths src --ignore-src -y
+```
+```
+source /opt/ros/jazzy/setup.bash
+```
+para hacer el source permanente
+```
+echo "source /opt/ros/jazzy/setup.bash" >> ~/.bashrc
+source ~/.bashrc
 ```
 Note that option `-r` has been added. For ARM based processors, there are missing packages, e.g. those related to simulation. We would not try to run the simulation in the compute platform of andino, however for convenience it is added here.
 
