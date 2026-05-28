@@ -241,6 +241,74 @@ Ventajas:
 
 
 
+# Para ssh:
+
+## Para poder conectarse sin ip instalar:
+
+```bash
+sudo apt install avahi-daemon
+```
+
+## Luego ejecutar:
+
+```bash
+sudo systemctl enable avahi-daemon
+sudo systemctl start avahi-daemon
+```
+
+## Finalmente conectar:
+
+```bash
+ssh andino@ubuntu.local
+```
+
+
+
+
+
+# Actual
+
+instalacion arduino
+
+
+
+# Conectado de todo
+
+puertos usb:
+
+```bash
+sudo dmesg | grep ttyUSB
+[sudo] password for andino: 
+[   11.058922] ch341-uart ttyUSB0: break control not supported, using simulated break
+[   11.060803] usb 4-2: ch341-uart converter now attached to ttyUSB0
+[   11.065288] usb 2-2: cp210x converter now attached to ttyUSB1
+
+```
+
+0 arduino:
+
+    ATTRS{idProduct}=="7523"
+    ATTRS{idVendor}=="1a86"
+
+1 lidar
+
+```bashATTRS{idProduct}=="ea60"
+ ATTRS{idProduct}=="ea60"
+ ATTRS{idVendor}=="10c4"
+```
+
+
+
+
+
+https://github.com/Ekumen-OS/andino.git
+
+
+
+
+
+# camiar cables encoders motor R
+
 
 
 
