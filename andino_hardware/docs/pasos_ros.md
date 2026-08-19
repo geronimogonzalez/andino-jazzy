@@ -29,3 +29,21 @@ ros2 launch andino_slam slam_toolbox_online_async.launch.py
 ros2 run nav2_map_server map_saver_cli -f mapa_robotica
 
 ros2 launch andino_navigation bringup.launch.py map:=mapa_robotica.yaml
+
+
+
+
+
+## Bajo consumo RPI:
+
+
+
+Modo normal:
+echo ondemand | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
+o
+echo schedutil | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
+Modo eco:
+echo powersave | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
+
+Verificar modo:
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
