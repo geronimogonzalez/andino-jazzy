@@ -47,3 +47,14 @@ echo powersave | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
 
 Verificar modo:
 cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+
+
+
+## Explorador por ssh
+
+otras ubicaciones
+
+sftp://andino2@ubuntu2.local/
+
+
+
