@@ -2,11 +2,17 @@
 
 
 
+## §006 2026-09-10 Jueves
+
+### Planchado y atacado de PCB :white_check_mark:
+
+Resta hacer los agujeros, planchar la serigrafia y barnizar. 
+
 
 
 ## §005 2026-09-09 Miércoles
 
-Prueba del segundo Lidar en rpi roja:
+### Prueba del segundo Lidar en rpi roja:
 
 * Funciona en modo estandard
 
@@ -37,6 +43,20 @@ Prueba del segundo Lidar en rpi roja:
 
 * con el modo estandar hay menos puntos, menor resolucion, hay que ver si afecta a la navegacion, de ser asi se podria implementar algo para detectar que lidar es y ponerlo en el modo mas compatible.
 
+### Motores:
+
+En la placa vieja, estaban al reves los encoders, los cambiamos de firmware. En realidad me confundi al rutear ya que la placa esta en espejo, por lo que deberian quedar como los de ekumen. De igual manera, debo invertir por firmware el cable violeta y azul del encoder del motor x.  
+
+* cambie el nombre de la serigrafia de la placa
+
+* intercambiar A y B del nuevo motor L (original ekumen
+
+### Cables:
+
+* [fichas c](https://www.mercadolibre.com.ar/5-ficha-conector-usb-tipo-c-macho-para-armar-cable/up/MLAU3842649796?pdp_filters=item_id:MLA1697912819#is_advertising=true&searchVariation=MLAU3842649796&backend_model=search-backend&be_origin=backend&position=2&search_layout=grid&type=pad&tracking_id=27f82bf6-186d-4439-8f2a-f80a34a613f3&ad_domain=VQCATCORE_LST&ad_position=2&ad_click_id=ZGMxOTk1NjktZmMwMi00M2Y2LTg3YzctNWNkYTQyZmZiNzA2)
+
+* [fichas A](https://www.mercadolibre.com.ar/conector-usb-tipo-a-macho-para-cable-x10-para-armar/up/MLAU3518218001#polycard_client=search-desktop&float_highlight=last_units&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=22&type=product&tracking_id=1b87023a-da6d-437a-a172-52ad288bf332&wid=MLA2506621750&sid=search)
+
   
 
 ## §004 2026-09-08 Martes
@@ -59,14 +79,13 @@ Pcb listo, resta verificar y hacer.
 
 ## §003 2026-09-07 Lunes
 
-RPI roja, falla nodo lidar y camara. 
+### RPI roja, falla nodo lidar y camara. 
 
 * Lidar desconexion de motor
 
 * camara: no esta disponible libcamera 0.6.0. pude extraer una version vieja de andino2, pero faltan 2 programas mas que no aparecen en el caché. Queda ver que solucion se puede hayar, y dejarla de manera robusta para que no se pise
 
-
-sigo con el pcb.
+### sigo con el pcb.
 
 * medir y rehacer
   * sw
