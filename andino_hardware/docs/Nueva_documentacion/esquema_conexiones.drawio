@@ -1,6 +1,6 @@
 <mxfile host="Electron">
   <diagram name="Página-1" id="ZV7oe-L5tdNdeK92Is6w">
-    <mxGraphModel dx="4080" dy="2652" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" background="light-dark(#9B999A,#121212)" math="0" shadow="0">
+    <mxGraphModel dx="164" dy="182" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" background="light-dark(#9B999A,#121212)" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -159,7 +159,7 @@
             <mxPoint x="444" y="786" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ig5RB6kV48rjfZuzns9i-5" connectable="0" parent="JnpMQegra7wOkSpVDSWG-30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=light-dark(#663300,#663300);" value="PWM1" vertex="1">
+        <mxCell id="Ig5RB6kV48rjfZuzns9i-5" connectable="0" parent="JnpMQegra7wOkSpVDSWG-30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=light-dark(#663300,#663300);fontColor=#FFFFFF;" value="PWM1" vertex="1">
           <mxGeometry relative="1" x="0.6632" y="2" as="geometry">
             <mxPoint x="1" as="offset" />
           </mxGeometry>
@@ -175,7 +175,7 @@
             <mxPoint x="436" y="749" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ig5RB6kV48rjfZuzns9i-3" connectable="0" parent="JnpMQegra7wOkSpVDSWG-31" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=light-dark(#CC0000,#CC0000);" value="PWM3" vertex="1">
+        <mxCell id="Ig5RB6kV48rjfZuzns9i-3" connectable="0" parent="JnpMQegra7wOkSpVDSWG-31" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=light-dark(#CC0000,#CC0000);fontColor=#FFFFFF;" value="PWM3" vertex="1">
           <mxGeometry relative="1" x="0.6816" as="geometry">
             <mxPoint x="3" as="offset" />
           </mxGeometry>
@@ -191,7 +191,7 @@
             <mxPoint x="472" y="789" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ig5RB6kV48rjfZuzns9i-4" connectable="0" parent="JnpMQegra7wOkSpVDSWG-32" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=light-dark(#CC6600,#CC6600);" value="PWM2" vertex="1">
+        <mxCell id="Ig5RB6kV48rjfZuzns9i-4" connectable="0" parent="JnpMQegra7wOkSpVDSWG-32" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=light-dark(#CC6600,#CC6600);fontColor=#FFFFFF;" value="PWM2" vertex="1">
           <mxGeometry relative="1" x="0.6835" y="-1" as="geometry">
             <mxPoint x="1" as="offset" />
           </mxGeometry>
@@ -207,7 +207,7 @@
             <mxPoint x="436" y="738" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ig5RB6kV48rjfZuzns9i-2" connectable="0" parent="JnpMQegra7wOkSpVDSWG-33" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=light-dark(#CCCC00,#CCCC00);" value="PWM4" vertex="1">
+        <mxCell id="Ig5RB6kV48rjfZuzns9i-2" connectable="0" parent="JnpMQegra7wOkSpVDSWG-33" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=light-dark(#CCCC00,#CCCC00);fontColor=#FFFFFF;" value="PWM4" vertex="1">
           <mxGeometry relative="1" x="0.6966" y="-1" as="geometry">
             <mxPoint x="2" as="offset" />
           </mxGeometry>
