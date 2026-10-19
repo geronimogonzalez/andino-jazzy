@@ -50,15 +50,99 @@ Hay varios apartados, en donde se divide principalmente en
 |   13   |         SD Card          |                        256 GB SD Card                        |                                                              |   The SD Card is used to host the OS for the Raspberry Pi    |
 |   14   | (Optional) Plastic seals |                              -                               |                              -                               | You will need at least 2 longer ones to fix the powerbank to the upper chassis, and the shorter ones for all the wires. If you don't want to use them, you can use other method to fix the powerbank and wires |
 
+
+
+
+
+| Modulo          | Parte                        | Cantidad | Comentarios | Enlaces |
+| --------------- | ---------------------------- | :------: | ----------- | ------- |
+| sbc             | Raspberry Pi 5 B (4 Gb)      |    1     |             |         |
+| Microcontroller | Arduino Nano                 |    1     |             |         |
+| Laser Scanner   | RPLidar A1M8                 |    1     |             |         |
+| Camera          | Raspi Camera Module V2, 8 MP |    1     |             |         |
+| Motor Driver    | L298N Dual H Bridge          |    1     |             |         |
+| Motors          | Motor with Encoder           |    2     |             |         |
+| almacenamineto  | Tarjeta sd 256 Gb            |    1     |             |         |
+|                 | ruedas motrices              |    2     |             |         |
+|                 | rueda "loca"                 |    1     |             |         |
+|                 | soporte baterias             |    1     |             |         |
+|                 | baterias                     |    3     |             |         |
+|                 | placa pcb                    |    1     |             |         |
+|                 | diodos                       |    2     |             |         |
+|                 | capacitor                    |    1     |             |         |
+|                 | interruptor                  |    1     |             |         |
+|                 | ficha                        |    1     |             |         |
+| fuente rpi      | 220                          |    1     |             |         |
+| fuente lidar    | 150                          |    1     |             |         |
+| fuente motores  | stepdown LM2596s             |    1     |             |         |
+|                 | USB A-MICRO                  |    1     |             |         |
+|                 | USB A-B                      |    1     |             |         |
+|                 | USB A-MINI                   |    1     |             |         |
+|                 | USB A-C                      |    1     |             |         |
+|                 | chasis                       |    2     |             |         |
+|                 | soporte camara               |    1     |             |         |
+|                 |                              |    1     |             |         |
+|                 |                              |    1     |             |         |
+|                 | soporte motores              |    1     |             |         |
+|                 | soporte rueda loca           |    1     |             |         |
+|                 | soporte lidar                |    1     |             |         |
+|                 |                              |    1     |             |         |
+|                 | tira de pines macho          |          |             |         |
+|                 | tiras de pines hembra        |          |             |         |
+|                 | cable de pines               |          |             |         |
+|                 | tornillos                    |          |             |         |
+|                 | tuercas                      |          |             |         |
+|                 |                              |          |             |         |
+|                 |                              |          |             |         |
+|                 |                              |          |             |         |
+
+
+
+
+
+mas partes 3d
+
+pcb
+
+cables usb
+
+3 tipos de fuentes
+
+2 diodos
+
+1 capacitor
+
+un sw
+
+ficha fuente
+
+usb hembra
+
+tira de pines macho-hembra
+
+cables de pines
+
+baterias y soporte
+
+
+
+
+
+
+
+
+
 When you gather all the parts, you should have the following (NOTE: the printed encoder wheels are no longer necessary, since the motors are equipped with an embedded encoder):
 
 <img src="docs/parts.jpg">
 
 ### Tooling
 
+muchas
+
 | Number |        Tool         |                            Links                             |                           Comments                           |
 | :----: | :-----------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |   1    | Set of screwdrivers | [Amazon](https://www.amazon.es/Ainiv-Destornilladores-Precisi%C3%B3n-Destornillador-magnetizador/dp/B09CD1F44B/ref=asc_df_B09CD1XT57/?tag=googshopes-21&linkCode=df0&hvadid=529495276761&hvpos=&hvnetw=g&hvrand=2854754490438163902&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9181160&hvtargid=pla-1431590275356&mcid=4f49c0c6c8ca33b390169090ae4ad15b&th=1) |             You need flat and star screwdrivers              |
 |   2    |   Silicon Pistol    | [Amazon](https://www.amazon.es/Tilswall-Pegamento-Manualidades-Bricolaje-Reparaciones/dp/B07TD1RD4R/ref=pd_ci_mcx_pspc_dp_d_2_i_1?pd_rd_w=49k0d&content-id=amzn1.sym.f11fe75a-7397-412e-9b90-7e09bf6f5c14&pf_rd_p=f11fe75a-7397-412e-9b90-7e09bf6f5c14&pf_rd_r=MA73TQJTYS2GMC7XW7YC&pd_rd_wg=Z3aRz&pd_rd_r=08e805c6-81b7-4023-8ea1-9b357536cba1&pd_rd_i=B07TD1RD4R&th=1) | This pistol should include 75 silicon bars so you won't need to purchase them separately |
 
-## Assembly Process
+## 
