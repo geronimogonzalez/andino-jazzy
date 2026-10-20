@@ -4,7 +4,7 @@ En este documento se detalla la construcion junto con los pasos para la misma.
 
 
 
-## Division de temas
+## Indice de temas
 
 Hay varios apartados, en donde se divide principalmente en 
 
@@ -27,6 +27,14 @@ Hay varios apartados, en donde se divide principalmente en
 
   * Arduino
 
+* docs
+  
+  * Imagenes
+    * esquemas
+    * pruebas
+    * armado
+    * robot completo
+  
     
 
 ## Componentes
@@ -52,7 +60,7 @@ Hay varios apartados, en donde se divide principalmente en
 
 
 
-
+(colocar numero para la imagen de las partes)
 
 | Modulo          | Parte                        | Cantidad | Comentarios | Enlaces |
 | --------------- | ---------------------------- | :------: | ----------- | ------- |
@@ -66,29 +74,29 @@ Hay varios apartados, en donde se divide principalmente en
 |                 | ruedas motrices              |    2     |             |         |
 |                 | rueda "loca"                 |    1     |             |         |
 |                 | soporte baterias             |    1     |             |         |
-|                 | baterias                     |    3     |             |         |
+| baterias        | 4,2 V, 8800 mAh              |    3     |             |         |
 |                 | placa pcb                    |    1     |             |         |
-|                 | diodos                       |    2     |             |         |
-|                 | capacitor                    |    1     |             |         |
+| diodos          | 1N5822                       |    2     |             |         |
+| capacitor       | 100 μF, 25 V                 |    1     |             |         |
 |                 | interruptor                  |    1     |             |         |
 |                 | ficha                        |    1     |             |         |
 | fuente rpi      | 220                          |    1     |             |         |
 | fuente lidar    | 150                          |    1     |             |         |
 | fuente motores  | stepdown LM2596s             |    1     |             |         |
-|                 | USB A-MICRO                  |    1     |             |         |
-|                 | USB A-B                      |    1     |             |         |
-|                 | USB A-MINI                   |    1     |             |         |
-|                 | USB A-C                      |    1     |             |         |
+| USB             | A-MICRO                      |    1     |             |         |
+| USB             | A-B                          |    1     |             |         |
+| USB             | A-MINI                       |    1     |             |         |
+| USB             | A-C                          |    1     |             |         |
 |                 | chasis                       |    2     |             |         |
-|                 | soporte camara               |    1     |             |         |
-|                 |                              |    1     |             |         |
-|                 |                              |    1     |             |         |
+| soporte camara  | U                            |    1     |             |         |
+| soporte camara  | carcasa                      |    1     |             |         |
+| soporte camara  | tapa                         |    1     |             |         |
 |                 | soporte motores              |    1     |             |         |
 |                 | soporte rueda loca           |    1     |             |         |
-|                 | soporte lidar                |    1     |             |         |
-|                 |                              |    1     |             |         |
-|                 | tira de pines macho          |          |             |         |
-|                 | tiras de pines hembra        |          |             |         |
+| soporte lidar   | adelante                     |    1     |             |         |
+| soporte lidar   | atras                        |    1     |             |         |
+| tira de pines   | macho                        |          |             |         |
+| tira de pines   | hembra                       |          |             |         |
 |                 | cable de pines               |          |             |         |
 |                 | tornillos                    |          |             |         |
 |                 | tuercas                      |          |             |         |
